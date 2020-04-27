@@ -2,7 +2,7 @@ process.stdout.write("prompt >");
 
 require("./pwd");
 require("./ls");
-
+require("./cat");
 //module.exports = process.stdin.on("data", (data) => {
 //  const cmd = data.toString().trim();
 //  if (cmd === "pwd") {
